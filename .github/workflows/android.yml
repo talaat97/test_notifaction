@@ -13,6 +13,7 @@ jobs:
 
       - uses: actions/setup-java@v3
         with:
+          distribution: 'zulu' # Specify the distribution
           java-version: '11'
 
       - uses: subosito/flutter-action@v2
